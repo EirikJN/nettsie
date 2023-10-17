@@ -1,17 +1,31 @@
 html, body {
+
     height: 100%;
+    width: 100%;
 
 }
 
+body {
+
+    background-image: url("image/cf.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
 .meny {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
+
 }
 
 .meny a {
+
     width: 10%;
     height: 5%;
     display: flex;
@@ -20,9 +34,24 @@ html, body {
     align-items: center;
     padding: 2%;
     color: white;
+
 }
 
 .meny a:hover {
+
     background-color: green;
     color: white;
+
+}
+
+.content {
+
+    height: 80%;
+    width: 50%;
+
+    background-image: url("B.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+
 }

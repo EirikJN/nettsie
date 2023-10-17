@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    width: 100%;
 }
 
 .meny {
@@ -8,6 +9,16 @@ html, body {
     justify-content: center;
     
 }
+
+body {
+
+    background-image: url("image/cf.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
 
 .meny a {
     width: 10%;
