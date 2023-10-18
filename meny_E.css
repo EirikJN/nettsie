@@ -1,9 +1,12 @@
 html, body {
+
     height: 100%;
     width: 100%;
+
 }
 
 .meny {
+
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -16,11 +19,15 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    
-}
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}    
 
 .meny a {
+
     width: 10%;
     height: 5%;
     display: flex;
@@ -29,9 +36,30 @@ body {
     align-items: center;
     padding: 2%;
     color: white;
+
 }
 
 .meny a:hover {
+
     background-color: green;
     color: white;
+
+}
+
+.content {
+
+    height: 80%;
+    width: 50%;
+
+    background-image: url("image/B.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+
+}
+
+h1{
+
+color: white;
+
 }
