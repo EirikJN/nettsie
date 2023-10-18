@@ -7,10 +7,12 @@ html, body {
 
 .meny {
 
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+    margin: 1%;
+
 }
 
 body {
@@ -19,10 +21,9 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 
 }    
 
@@ -30,6 +31,7 @@ body {
 
     width: 10%;
     height: 5%;
+
     display: flex;
     background-color:black;
     justify-content: center;
@@ -49,17 +51,14 @@ body {
 .content {
 
     height: 80%;
-    width: 50%;
-
+    width: 52%;
     background-image: url("image/B.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
-
-}
-
-h1{
-
-color: white;
+    align-items: center;
+    opacity: 0.5;
+    color: white;
+    margin: 1%;
+    padding: 2%;
 
 }
