@@ -1,6 +1,6 @@
 html, body {
 
-    height: 100%;
+    height: 200%;
     width: 100%;
 
 }
@@ -43,22 +43,37 @@ body {
 
 .meny a:hover {
 
-    background-color: green;
+    background-color: darkblue;
     color: white;
 
 }
 
 .content {
 
-    height: 80%;
+    overflow: hidden;
+    position: relative;
+    height: 85%;
     width: 52%;
-    background-image: url("image/B.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     align-items: center;
-    opacity: 0.5;
     color: white;
     margin: 1%;
     padding: 2%;
+
+}
+
+.bg_image {
+
+    opacity: 0.65;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.inner_content {
+
+    position: relative;
 
 }

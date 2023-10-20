@@ -17,7 +17,7 @@ body {
 .meny {
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -39,7 +39,7 @@ body {
 
 .meny a:hover {
 
-    background-color: green;
+    background-color: darkblue;
     color: white;
 
 }
