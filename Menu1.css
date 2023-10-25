@@ -65,7 +65,7 @@ body {
 
 .bg_image {
 
-    opacity: 0.65;
+    opacity: 0.75;
     position: absolute;
     left: 0;
     top: 0;
@@ -90,12 +90,14 @@ body {
     position: relative;
     width: 100%;
     height: 20%;
+    display: flex;
+    flex-direction: column;
 
 }
 
 .psl {
 
-    width: 80%;
+    width: 100%;
    
 
 }
@@ -117,8 +119,9 @@ body {
 
 }
 
-.ps1pic {
+.lc_left {
 
-    width: 100%;
+    width: 50%;
+    line-height: 1%;
 
 }
